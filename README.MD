@@ -1,204 +1,143 @@
-# 🚀 **3-Day Course Syllabus**
+# 🚀 **3-Day Crash Course:**
 
-## **“Building AI Applications with Gemini API and LangChain – Crash Course”**
+## **Build AI Apps with Gemini API & LangChain**
 
-**Format:** Hands-on, project-driven
-**Outcome:** Each student builds & deploys a complete AI application by Day 3
+**Hands-on. Project-driven. Deploy a fully working AI application by Day 3!**
 
 ---
 
-# **📅 Day 1 — Foundations + Core LLM Workflows**
+## **Why This Course?**
 
-## **Module 1 — Introduction, Setup & Architecture (45 min)**
+Transform your AI ideas into real applications in just three days:
 
-**Topics**
+* Upload and query documents with AI
+* Integrate images and text for multimodal intelligence
+* Use tools and functions to enhance reasoning
+* Launch a polished web app to the cloud
 
-* Gemini models overview
-* LangChain fundamentals (LCEL, Chains, Runnables)
-* Planning the full application you’ll build (RAG + tools + UI)
-* Environment setup (Python, APIs, LangChain, vector DB)
+**No fluff, only practical skills. Walk out with something real you can showcase!**
 
-**Hands-On**
+---
+
+## **📅 Day 1 — Foundations & Core LLM Workflows**
+
+**Kickstart Your AI Journey**
+
+* Gemini models & LangChain essentials
+* Plan your full AI app: RAG, tools, UI
+* Set up Python, APIs, LangChain, and vector DB
+
+**Hands-On:**
 
 * “Hello Gemini” in LangChain
-* Set up the project workspace + GitHub repo
+* Initialize project workspace & GitHub repo
+
+**Master Prompting & Structured Outputs**
+
+* Reusable prompts & chains
+* JSON parsing & Pydantic validation
+* Scaffold your capstone app
+
+**Hands-On:**
+
+* Build structured output components
+* Integrate into your final project
+
+**Embeddings & Vector Stores**
+
+* Gemini embeddings & vector search (FAISS / Chroma)
+* Document loaders: PDFs, web pages, text
+* Chunking strategies & similarity search
+
+**Hands-On:**
+
+* Load documents, generate embeddings, test searches
+
+**🎯 Day 1 Milestone:** Your app **loads, embeds, and searches documents**.
 
 ---
 
-## **Module 2 — Prompting, Chains, and Structured Output (90 min)**
+## **📅 Day 2 — RAG, Agents & Tools**
 
-**Topics**
+**Build a Smart RAG Pipeline**
 
-* PromptTemplates
-* LLMChain + LCEL basics
-* JSON structured outputs
-* Pydantic parsing & robust outputs
+* Retriever setup & context compression
+* Answers with citations & optional query rewriting
 
-**Hands-On**
+**Hands-On:**
 
-* Build reusable prompt + chain components
-* Implement structured output mini-tools
-* **Integrate these into your final project scaffolding**
-
----
-
-## **Module 3 — Embeddings, Vector Stores & Document Loading (120 min)**
-
-**Topics**
-
-* Gemini embeddings
-* Vector stores (FAISS / Chroma)
-* Document loaders (PDFs, web pages, text files)
-* Indexing + chunking strategies
-
-**Hands-On**
-
-* Load sample documents for your capstone app
-* Create embeddings + build vector store
-* Test vector search queries
-
-**🎯 Day 1 Project Milestone:**
-Your app can **load documents + embed them + run similarity search**.
-
----
-
----
-
-# **📅 Day 2 — RAG + Agents + Tools**
-
-## **Module 4 — Building a Full RAG Pipeline (2 hours)**
-
-**Topics**
-
-* RAG architecture
-* Retriever configuration
-* Context compression
-* Answers with citations
-* Query rewriting (optional advanced)
-
-**Hands-On**
-
-* Implement full RAG chain using LCEL
-* Add context compression
+* Implement RAG in LCEL
 * Add citations and evaluation tests
 
-**Integrated Into Project:**
-Your app becomes a **document-aware question-answering assistant**.
+**Supercharge Your AI with Tools & Agents**
+
+* Gemini function calling & LangChain tools
+* Agent orchestration & safe tool usage
+
+**Hands-On:**
+
+* Build search, calculator, scraper tools
+* Combine RAG + tools in your agent
+
+**Add Multimodal Intelligence**
+
+* Gemini Vision model: OCR & image QA
+
+**Hands-On:**
+
+* Optional image understanding (invoices, screenshots, diagrams)
+
+**🎯 Day 2 Milestone:** Your app is a **tool-using, multimodal-ready RAG assistant**.
 
 ---
 
-## **Module 5 — Tools, Function Calling & Agents (90 min)**
+## **📅 Day 3 — UI, Deployment & Capstone**
 
-**Topics**
+**Create a Stunning Front-End**
 
-* Gemini function calling
-* LangChain tools
-* Agents vs. Chains
-* Safety, determinism & tool orchestration
+* Streamlit, Gradio, or FastAPI
+* Chat interface, image uploads, response display
 
-**Hands-On**
+**Hands-On:**
 
-* Build tools (search, calculator, scraper, etc.)
-* Add them to your RAG app as agent tools
-* Create an agent that combines RAG + tools
+* Connect your UI to backend AI chains
 
-**Project Integration:**
-Your app now can **use tools and functions to enhance answers**.
+**Deploy Your App to the Cloud**
 
----
+* HuggingFace Spaces, Render, or Google Cloud
+* Logging, validation, monitoring, caching
 
-## **Module 6 — Intro to Multimodal Gemini (60 min)**
+**Hands-On:**
 
-**Topics**
+* Deploy your app online
+* Add robust logging & chain tracing
 
-* Gemini Vision model
-* Image input processing in LangChain
-* OCR & image QA
+**Capstone Finalization & Demo**
 
-**Hands-On**
-
-* Add optional image understanding to your project
-  (Example: “upload invoice → answer questions”, “upload screenshot → explain”)
-
-**🎯 Day 2 Project Milestone:**
-Your app is now a **tool-using, multimodal-ready RAG assistant**.
-
----
-
----
-
-# **📅 Day 3 — UI, Deployment & Capstone Application**
-
-## **Module 7 — Building a Front-End UI (90 min)**
-
-**Choose a stack:**
-
-* **Streamlit** (recommended quick build)
-* or **Gradio**
-* or **Simple FastAPI REST endpoint**
-
-**Topics**
-
-* Creating a clean chat interface
-* Image upload fields
-* Displaying model responses, citations, and debug traces
-
-**Hands-On**
-
-* Build your app’s front-end
-* Connect front-end ↔ backend chains
-
----
-
-## **Module 8 — Deployment & Productionizing (90 min)**
-
-**Topics**
-
-* Deploying to cloud (HuggingFace Spaces / Render / Google Cloud Run)
-* Caching & rate-limit handling
-* Logging, validation & monitoring
-* Managing secrets
-
-**Hands-On**
-
-* Deploy your app to a hosting platform
-* Add input/output validation
-* Add basic logging & chain tracing
-
----
-
-## **Module 9 — Capstone Finalization & Demo (2–3 hours)**
-
-**Tasks**
-
-* Polish UI
-* Refine RAG
-* Add optional advanced features:
-
-  * Memory
-  * Query rewriting
-  * Multi-document support
-  * Tool-enhanced reasoning
+* Polish UI, refine RAG pipelines
+* Add optional advanced features: memory, multi-document, tool-enhanced reasoning
 * Prepare a mini demo
 
-**Final Deliverables:**
+**🎯 Final Deliverables:**
 
-* **Fully working AI application**
-* **Hosted online** (URL provided)
-* **GitHub repository with code**
-* **Short demo presentation**
+* Fully working AI app
+* Hosted online with a live URL
+* GitHub repository with all code
+* Demo-ready presentation
 
 ---
 
-# ⭐ Final Application Example (What Students Will Build)
+## **🌟 Example Final Application**
 
-A complete **AI Knowledge Assistant** with:
+A complete **AI Knowledge Assistant** featuring:
 
-* Document upload
-* Automated chunking + embeddings
+* Document upload + automated chunking & embeddings
 * RAG query answering with citations
 * Optional image understanding
 * Tool-using agent capabilities
-* User-friendly web UI
-* Cloud deployment
+* Polished web UI & cloud deployment
+
+**By the end of this course, you’ll have a real, deployable AI product ready to showcase or scale!**
+
+---
 
